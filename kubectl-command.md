@@ -48,3 +48,7 @@ kubectl uncordon node1
 ```
 kubectl logs -f --tail=100 nginx
 ```
+进入容器内部
+```sh
+kubectl exec -it podname /bin/bash
+```
